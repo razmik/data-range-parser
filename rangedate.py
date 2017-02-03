@@ -27,8 +27,8 @@ for index, item in enumerate(sys.argv):
 		fromdate = sys.argv[index+1]
 	elif(sys.argv[index] == '-t'):
 		todate = sys.argv[index+1]
-	elif(sys.argv[index] == '-p'):		
-		onlyvalue = True if (sys.argv[index+1] == 'T') else False
+	elif(sys.argv[index] == '-p'):			
+		onlyvalue = True if (sys.argv[index+1] == 'T' or sys.argv[index+1] == 't') else False
 		
 #validate input arguments
 if(inputfile is None):
