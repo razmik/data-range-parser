@@ -35,8 +35,7 @@ if(inputfile is None):
 	print('Fail: Input file not found.')
 	sys.exit()
 if(outputfile is None):
-	print('Fail: Output file not found.')
-	sys.exit()
+	outputfile = 'output.txt'
 		
 #read files
 with open(inputfile) as f:
