@@ -6,9 +6,9 @@ Inputand output data formats can be found on the example files input.txt and out
 
 ###Usage:
 
-python rangedate.py -i input.txt -o output.txt -f 2015-10-22 -t 2017-01-10 -p t
+python rangedate.py -i input.txt -o output.txt -f 2015-10-22 -t 2017-01-10 -p f
 
-#Legand##
+###Legand
 
 -i (mandatory) - Input file. This should be in the format of the sample file (input.txt)
 
