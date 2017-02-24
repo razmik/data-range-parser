@@ -1,4 +1,4 @@
-# Data Range Parser
+# Date Range Parser
 
 Simple python script to range date array into a time series date range.
 
